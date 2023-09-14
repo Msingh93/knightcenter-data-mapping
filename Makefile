@@ -1,2 +1,6 @@
-# Here's where we'll put our Make commands
+greeting:
+	echo "hello there"
 
+directories:
+	-mkdir tmp
+	-mkdir data
